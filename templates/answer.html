@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advice of the week</title>
+</head>
+
+<h1>Advice of the week</h1>
+<body>
+If your main characteristics is {{ char }} and you live in a {{ live }}, then it might be good
+{% if char == "adventurous" and live == "countryside" %}
+to watch out for the wild animals.
+{% endif %}
+
+{% if char == "happy" and live == "countryside" %}
+to dance in the woods every once in a while.
+{% endif %}
+
+{% if char == "shy" and live == "countryside" %}
+to go and visit your neighbours every other day.
+{% endif %}
+
+{% if char == "adventurous" and live == "city" %}
+to obey the traffic rules.
+{% endif %}
+
+{% if char == "happy" and live == "city" %}
+to smile in a bus and spread the happiness around you.
+{% endif %}
+
+{% if char == "shy" and live == "city" %}
+to start talking to strangers in a bus once a week.
+{% endif %}
+
+<br>
+
+<a href="/">Back to the form</a>
+
+</body>
+</html>
