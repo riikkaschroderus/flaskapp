@@ -10,4 +10,4 @@ sudo systemctl reload nginx
 pip install flask gunicorn
 export FLASK_APP=app.py
 cd flaskapp
-gunicorn -w 4 flaskapp/app:app
+gunicorn -w 4 app:app
