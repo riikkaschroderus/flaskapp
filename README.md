@@ -8,5 +8,5 @@ export IP= "external ip address of VM"
 
 git clone https://github.com/riikkaschroderus/flaskapp
 
-./flaskapp/deploy.sh
+sudo bash flaskapp/deploy.sh
 
