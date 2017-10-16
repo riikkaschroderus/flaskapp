@@ -4,7 +4,7 @@ Deployment:
 
 ssh into your Ubuntu VM and give the following commands:
 
-git clone https://github.com/riikkaschroderus/flaskapp
+`git clone https://github.com/riikkaschroderus/flaskapp`
 
-source flaskapp/deploy.sh
+`source flaskapp/deploy.sh`
 
