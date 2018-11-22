@@ -1,10 +1,22 @@
-# flaskapp
+# Flask App on Google Cloud Virtual Machine
+This is a simple web application in Python Flask framework. We deploy the app by using Gunicorn and Nginx.
 
-Deployment: 
+Deployment:
 
-ssh into your Ubuntu VM and give the following commands:
+* Create an Ubuntu VM and allow HTTP traffic (port 80)
 
-`git clone https://github.com/riikkaschroderus/flaskapp`
+* ssh into your VM
 
-`source flaskapp/deploy.sh`
+* Clone the repository:
+```
+git clone https://github.com/riikkaschroderus/flaskapp
+```
 
+* Deploy the app:
+```
+source flaskapp/deploy.sh
+```
+
+* Navigate to your app via the external IP.
+
+* Modify the templates to design your own web app!
